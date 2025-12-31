@@ -1,0 +1,12 @@
+name: SimpleHelpPlugin
+version: '1.0'
+main: org.OZI.simpleHelpPlugin.SimpleHelpPlugin
+api-version: '1.21'
+commands:
+  pomoc:
+    description: List of Common Commands
+    usage: /pomoc
+    aliases:
+      - help
+      - h
+      - pomoc
